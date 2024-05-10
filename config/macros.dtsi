@@ -2,23 +2,23 @@ macro_acento_agudo: macro_acento_agudo{
 compatible = "zmk,behavior-macro";
 label = "macro_acento_agudo";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&kp APOSTROPHE>;
+bindings = <&sk RIGHT_ALT>, <&kp APOSTROPHE>;
 };
 macro_c_cedilha: macro_c_cedilha{
 compatible = "zmk,behavior-macro";
 label = "macro_c_cedilha";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&kp COMMA>;
+bindings = <&sk RIGHT_ALT>, <&kp COMMA>;
 };
 macro_acentos_1: macro_acentos_1{
 compatible = "zmk,behavior-macro";
 label = "macro_acentos_1";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&kp GRAVE>;
+bindings = <&sk RIGHT_ALT>, <&kp GRAVE>;
 };
 macro_caps: macro_caps{
 compatible = "zmk,behavior-macro";
 label = "macro_caps";
 #binding-cells = <0>;
-bindings = <&kp LSHIFT>, <&kp CAPSLOCK>;
+bindings = <&sk LEFT_SHIFT>, <&kp CAPSLOCK>;
 };
