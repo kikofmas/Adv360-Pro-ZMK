@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                  &tog 1                                                                               &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T            &kp C_VOL_UP                                                                        &kp C_BRI_UP   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
-   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G            &kp C_VOL_DN  &kp LCTRL         &kp LALT                  &kp RIGHT_ALT  &kp RCTRL  &kp C_BRI_DN   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
- &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                     &kp PRINTSCREEN                      &kp TILDE                            &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
- &kp LCTRL  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                        &kp BSPC    &kp DEL     &kp LEFT_WIN                     &kp TILDE2  &kp ENTER     &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+ &kp EQUAL            &kp N1       &kp N2    &kp N3     &kp N4  &kp N5                  &tog 1                                                                                        &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
+   &kp TAB             &kp Q        &kp W     &kp E      &kp R   &kp T            &kp C_VOL_UP                                                                                 &kp C_BRI_UP   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
+   &kp ESC             &kp A        &kp S     &kp D      &kp F   &kp G            &kp C_VOL_DN  &kp LEFT_WIN         &kp LALT                        &kp RIGHT_ALT  &kp RCTRL  &kp C_BRI_DN   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
+ &kp LSHFT             &kp Z        &kp X     &kp C      &kp V   &kp B                                        &kp PRINTSCREEN                  &macro_acento_agudo                            &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+ &kp LCTRL  &macro_acentos_1  &macro_caps  &kp LEFT  &kp RIGHT                        &kp BSPC       &kp DEL           &tog 4                     &macro_c_cedilha  &kp ENTER     &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
@@ -75,6 +75,16 @@
   &none         &none         &none         &none         &none         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none    &macro_ver         &none                                  &none                       &none                                       &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none         &none                                &none   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none   &none
+            >;
+        };
+
+        layer_Symbols {
+            bindings = <
+ &trans           &trans        &trans        &trans        &trans        &trans            &trans                                                  &trans        &trans            &trans             &trans          &trans           &trans  &trans
+ &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &trans                                                  &trans  &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0  &trans
+ &trans  &kp EXCLAMATION        &kp AT     &kp POUND    &kp DOLLAR   &kp PERCENT            &trans  &trans  &trans                  &trans  &trans  &trans     &kp CARET     &kp AMPERSAND       &kp ASTERISK        &kp LPAR         &kp RPAR  &trans
+ &trans        &kp EQUAL      &kp PLUS     &kp MINUS     &kp UNDER        &trans                            &trans                  &trans                        &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
+ &trans           &trans        &trans        &trans        &trans                          &trans  &trans  &trans                  &trans  &trans  &trans                          &trans             &trans          &trans           &trans  &trans
             >;
         };
 
